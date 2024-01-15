@@ -5,7 +5,6 @@ body {
 }
 
 .main-section {
-    /* border: 1px solid red; */
     padding: 0 20% 0;
 }
 
@@ -28,17 +27,9 @@ body {
 }
 
 .hero-left-content,
-/* .hero-right-content*/
 .image-placeholder-container {
     width: 50%;
 }
-
-/* .hero-right-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    background-color: bisque;
-} */
 
 .image-placeholder-container {
     display: flex;
@@ -78,3 +69,27 @@ body {
 .info-text {
     text-align: center;
 }
+
+
+.quote-author {
+    text-align: right;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer,
+.footer > *{
+
+    border: 1px solid green;
+}
+
