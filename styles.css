@@ -36,19 +36,26 @@ button {
 .logo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .hero-title {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-paragraph {
+    margin: 0 0 16px;
 }
 
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
 
 }
 
@@ -57,10 +64,13 @@ button {
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 20px;
 }
 
 .hero-section {
     display: inline-flex;
+    margin: 100px 0;
+    gap: 24px;
 }
 
 .hero-left-content,
@@ -80,13 +90,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 0 80px;
 }
 
 .info-cards-container {
     display: flex;
     justify-content: space-around;
     gap: 60px;
-    /* width: 700px; */
+    width: 800px;
 
 }
 
@@ -105,28 +116,40 @@ button {
 }
 
 .info-title {
+    font-size: 36px;
     font-weight: 800;
+    margin: 0 0 50px;
 }
 
 .info-text {
     text-align: center;
     font-weight: 300;
+    margin-top: 8px;
 }
 
 
 .quote-author {
     text-align: right;
-    font-weight: 800;
+    font-weight: 700;
+    margin: 0;
+    width: 800px;
+    font-size: 20px;
 }
 
 .quote-container {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    align-items: center;
+    padding: 120px 0 100px; 
 }
 
 .quote {
+    width: 800px;
     font-weight: 300;
     font-style: italic;
     font-size: 36px;
+    margin:0;
 
 }
 
@@ -140,10 +163,16 @@ button {
     margin: 80px 0;
     color: #f9faf8;
     border-radius: 6px;
+    padding: 50px 150px;
 }
 
 .cta-subtext {
     color: #e5e7eb;
+    margin: 0;
+}
+
+.cta-main-text {
+    margin: 0;
 }
 
 .cta-button {
@@ -155,6 +184,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 35px 0;
 }
 
 
@@ -165,17 +195,25 @@ button {
 
 
 
-/* DEBUG --------------------------------------------------
 
-.cta-container {
+* {
+    /* border: 1px solid red ; */
+}
+
+
+
+
+/* DEBUG -------------------------------------------------- */
+
+/* .info-container {
     border: 1px solid green;
 }
 
-.cta-container * {
+.info-container  * {
     border: 1px solid hwb(290 29% 7%);
 }
 
-.cta-container>* {
+.info-container > * {
     border: 2px solid hsl(15, 2%, 36%);
 } */
 
